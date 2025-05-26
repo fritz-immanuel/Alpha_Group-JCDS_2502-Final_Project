@@ -3,9 +3,19 @@ import pandas as pd
 import cloudpickle
 import numpy as np
 
-# Load trained model using cloudpickle
-with open('models/best_cv_result.pkl', 'rb') as f:
-	model = cloudpickle.load(f)
+import os
+
+st.write("🔍 Model load check...")
+
+if os.path.exists('models/best_cv_result.pkl'):
+	st.write("✅ Model file exists.")
+	with open('models/best_cv_result.pkl', 'rb') as f:
+		model = cloudpickle.load(f)
+	st.write(f"✅ Model loaded: {type(model)}")
+else:
+	st.error("❌ Model file not found at models/best_cv_result.pkl")
+	st.stop()
+
 
 # Load feature template
 feature_template = pd.read_csv('dataset/ML_feature_set.csv')
