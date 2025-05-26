@@ -4,9 +4,9 @@
 **Project Type:** Data Science | Classification Modeling | Churn Analysis
 
 > [!NOTE]
-> Presentation Deck :
-> Dashboard : [Tableau](https://public.tableau.com/views/FinalProjectJCDS-2502Alpha_Group/SellerChurnOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-> Streamlit Deploy : [Streamlit](https://alphagroup-jcds2502-finalproject-mdym3v3ideqvrfozwhtfxy.streamlit.app/)
+> Presentation Deck : <br>
+> Dashboard : [Tableau](https://public.tableau.com/views/FinalProjectJCDS-2502Alpha_Group/SellerChurnOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)<br>
+> Streamlit Deploy : [Streamlit](https://alphagroup-jcds2502-finalproject-mdym3v3ideqvrfozwhtfxy.streamlit.app/)<br>
 
 ---
 
