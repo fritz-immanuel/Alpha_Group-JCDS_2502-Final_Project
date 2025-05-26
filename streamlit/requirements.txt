@@ -1,6 +1,7 @@
-scikit-learn
-imblearn
-pandas
-streamlit
-shap
-category_encoders
+scikit-learn==1.4.2
+imbalanced-learn==0.12.2
+pandas==2.2.2
+streamlit==1.35.0
+shap==0.45.0
+category_encoders==2.6.1
+cloudpickle==3.0.0

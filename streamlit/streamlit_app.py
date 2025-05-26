@@ -1,13 +1,11 @@
-# streamlit_app.py
-
 import streamlit as st
 import pandas as pd
-import pickle
+import cloudpickle
 import numpy as np
 
-# Load trained model
+# Load trained model using cloudpickle
 with open('models/best_cv_result.pkl', 'rb') as f:
-	model = pickle.load(f)
+	model = cloudpickle.load(f)
 
 # Load feature template
 feature_template = pd.read_csv('dataset/ML_feature_set.csv')
