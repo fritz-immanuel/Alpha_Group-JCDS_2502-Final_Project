@@ -6,7 +6,7 @@
 > [!NOTE]
 > Presentation Deck :
 > Dashboard : [Tableau](https://public.tableau.com/views/FinalProjectJCDS-2502Alpha_Group/SellerChurnOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-> Streamlit Deploy : [Streamlit](https://alphagroup-jcds2502-finalproject-ndlbu3h7jckemsyv6mustr.streamlit.app/)
+> Streamlit Deploy : [Streamlit](https://alphagroup-jcds2502-finalproject-mdym3v3ideqvrfozwhtfxy.streamlit.app/)
 
 ---
 
